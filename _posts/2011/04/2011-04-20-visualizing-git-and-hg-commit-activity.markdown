@@ -8,9 +8,9 @@ title: Python script to plot histogram of commit frequency of Mercurial or Git r
 When I choose a open-source software from several projects, I'd want to
 choose more active one. Although some repository service like
 [Google Code](http://code.google.com/) provides "activity" information,
-that was not enough because:
+that was not enough for me because:
 
-1. I want to know same "activity" measurement across the projects.
+1. I want to know same activity measurement across the projects.
 2. I can't see activity if the repository service does not provides
    information anyway.
 3. It'd be better to know that if the repository has high "activity"
@@ -20,7 +20,7 @@ So, I wrote a simple Python script to plot a histogram of commit frequency
 (number of commit per day).
 
 The figure bellow is an example. It is the histogram of the Numpy repository.
-You can see, for example, that it became very active at 2006.
+You can see, for example, that it became very active since 2006.
 
 [![repo-act-numpy by takafumi_a, on Flickr][fig_img_1]][fig_link_1]
 
