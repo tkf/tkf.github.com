@@ -7,6 +7,10 @@ title: Emacs is Dead (translated from Japanese)
 
 This is an English translation of "[Emacsは死んだ](http://cx4a.org/pub/emacs-is-dead.ja.html)" by Tomohiro Matsuyama.
 
+He is the author of the famous [auto-complete.el](https://github.com/auto-complete/auto-complete) and you may be helped a lot by his implementation of native profiler merged in the latest Emacs release (24.3).
+
+This is rather old article but as I can't find similar discussion in blog posts in English, I am translating it.
+
 ## Emacs is Dead
 
 -- Tomohiro Matsuyama (2010/2/22)
