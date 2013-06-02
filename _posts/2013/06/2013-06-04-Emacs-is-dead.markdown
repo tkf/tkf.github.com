@@ -80,3 +80,8 @@ Footnotes by translator, if not specified.
 \[4] Yes, I (translator) know that there is a go sign now and Stallman's intention was not to encourage external programs.  Rather, it is to prevent bypassing GPL from non-free software programs.  Also, Stallman prevents using gcc as external program which does not match to the Philosophy of Emacs Matsuyama speaks of.   But this article is rather old so I'd not blame him.
 
 \[5] (Original footnote 2) probably there is no such thing in the first place
+
+## Discussions
+
+- [reddit](http://www.reddit.com/r/emacs/comments/1fjelk/emacs_is_dead_translated_from_japanese/)
+- [Hacker News](https://news.ycombinator.com/item?id=5810075)
