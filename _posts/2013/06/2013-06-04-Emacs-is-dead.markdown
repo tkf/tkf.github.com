@@ -15,9 +15,9 @@ This is rather old article but as I can't find similar discussion in blog posts 
 
 -- Tomohiro Matsuyama (2010/2/22)
 
-First of all, I have to apologize for titling this article in such a sentimental way.  If you read this article, even part of it, you would understand how I love Emacs and think it never dies.  However, because of this, I chose the title, at least self-analysis told so.  Nevertheless, I hope you would overlook about the title.
+First of all, I have to apologize for titling this article in such a sentimental way.  If you read this article, even part of it, you would understand how I love Emacs and think it never dies.  However, because of this, I chose the title, or at least self-analysis told so.  Nevertheless, I hope you would overlook about the title.
 
-This article is an abstract of the part of my presentation for Mitou Youth \[1].  It could stay in my brain and my HDD forever, but I made this article thinking that it could have some social value.  If you don't enjoy this then it truly is not valuable and if you enjoy this then it may have some value.  Either way, it wouldn't affect my future so much.  I'll stop introduction here and start the main issue.
+This article is an abstract of the part of my presentation for Mitou Youth \[1].  It could stay in my brain and my HDD forever, but I made this article thinking that it could have some social value.  If you don't enjoy this then it truly is not valuable and if you enjoy this then it may have some value.  Either way, it wouldn't affect my future so much.  I'll stop foreword here and start the main issue.
 
 ### Philosophy of Emacs
 
@@ -42,6 +42,7 @@ You may notice at this point.  The biggest difference between the Eclipse versio
 In sum, Emacs Lisp has defect as a runtime and as a result it increases incentive to maximizing its potential social value.  It may be just historical understanding.  At this point in time, I would say it is more accurate to think that Emacs Lisp runtime intentionally has defect in order to maximize social values.  If I remember correctly, Stallman himself stubbornly rejected the change for shared library support \[4].  There could be the matter of maximization of social values behind the scenes.  Altogether, I think restriction on Emacs Lisp is intentionally (well, maybe not) done to maximizing values of software based on the  "Philosophy of Emacs" and I think this should be protected for eternity.
 
 ### A problem brought by new era
+
 Performance of computer progresses significantly.  The progress of performance brings new needs and researches, and there are new waves in the Emacs world.   Among them I want to talk especially about js2-mode and Semantics.  Let's begin with js2-mode.
 
 [js2-mode](https://code.google.com/p/js2-mode/) is developed by an eccentric developer called [Steve Yegge](http://steve-yegge.blogspot.fr/) and the remarkable point is that it has JavaScript interpreter implemented in Emacs Lisp.  He thought advanced and interactive error check, code completion and refactoring can be done by having JavaScript interpreter in Emacs.  I don't know if these functions are properly implemented, but his inference makes sense.  Existing error check for syntax error etc. is done by an extension called Flymake which is bundled in standard Emacs.  How Flymake works is simple; it starts appropriate error check program when buffer is saved or auto-saved, analyze the output of it and then highlight the line of the problem.  If an editor depends on external programs like this (although it is general in Emacs), it is often hard to implement functions mentioned above because of the inconsistency of data.  I think he thought that having JavaScript interpreter implemented in Emacs Lisp covers this point, however, it tragically **follows the way of Eclipse**.  Even if js2-mode becomes an excellent software and it receives appreciation from Emacs users, if it is not used from Vim or TextMate or other software programs, I don't think it has much social value.  If my "Philosophy of Emacs" is right, such exclusive strategy is meaningless.  There is many blockers such as inconsistency of data, as long as we use Emacs, we should concern more about maximizing social values.
@@ -58,6 +59,7 @@ The problem (1) is the same as that of js2-mode.  In essence, the value realized
 The virtue of Unix convention of making a big thing by combining small things is inherited in Emacs.  This virtue itself is the reason why I am using Emacs.  However, this may be becoming history.  What is the meaning of the world without the virtue or philosophy, but with only benefit?  I'd be disappointed if Emacs become so.
 
 ### What should we do?
+
 This is a very difficult matter.  Probably this is just too much of pessimism in the first place.  At any rate, what we can do is to follow the "Philosophy of Emacs" as much as possible.  We should not resort to force such as not using software.  The best way to do it would be to suggest better solutions with as much forgiveness as we could have.
 
 ### License
